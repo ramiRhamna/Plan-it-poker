@@ -12,7 +12,7 @@
                     <li > <!--[hidden]="showAdminBoard"-->
                         <a class="waves-effect" style="text-decoration: none;" routerLink="/account">
                             <mat-icon>people</mat-icon>
-                            <span> utilisateurs </span>
+                            <span> users </span>
                         </a>
                     </li>
 
@@ -41,7 +41,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li [hidden]="showModeratorBoard"><a class="waves-effect" style="text-decoration: none;" routerLink="/tags" >
+
+                   <li [hidden]="showModeratorBoard"><a class="waves-effect" style="text-decoration: none;" routerLink="/tags" >
                             <mat-icon> local_offer</mat-icon>
                             <span>Tags </span>
                         </a></li>
@@ -84,7 +85,7 @@
                         <a style="text-decoration: none;" routerLink="/configurations" class="waves-effect">
                             <mat-icon>build</mat-icon><span> General Configuration </span>
                         </a>
-                    </li>
+                    </li> 
 
                     <li [hidden]="showModeratorBoard" >
                         <a style="text-decoration: none;" href="javascript:void(0);" class="waves-effect">
@@ -124,11 +125,11 @@
                             <mat-icon>link</mat-icon><span> Usefull Links </span>
                         </a>
                     </li>
-                    <!--<li>
+                    <li>
                         <a style="text-decoration: none;" routerLink="/database" class="waves-effect">
                             <mat-icon>sync</mat-icon> <span> Database </span>
                         </a>
-                    </li>--->
+                    </li>
                  
                     <li [hidden]="showModeratorBoard" >
                         <a style="text-decoration: none;" routerLink="/cookies" class="waves-effect">

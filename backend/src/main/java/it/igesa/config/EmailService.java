@@ -15,7 +15,7 @@ import static javax.mail.Message.RecipientType.TO;
 
 /**
  *
- * @author Tarchoun Abir
+ * @author Rami Rhamna
  *
  */
 

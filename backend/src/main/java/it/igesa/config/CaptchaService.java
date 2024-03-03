@@ -10,7 +10,7 @@ import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 /**
  *
- * @author Tarchoun Abir
+ * @author Rami Rhamna
  *
  */
     @PropertySource("classpath:application.properties")

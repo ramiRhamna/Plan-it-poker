@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
   recaptchaResponse = '';
   fieldTextType!: boolean;
   accountStatus!: string;
-  siteSecret: string = '6Lc5l5AfAAAAAHOzhA9CEDiwe3n-W6GKdbQadMeq';
+  siteSecret: string = '6LdV8oMpAAAAAPEIeyvE3mHSf8F3shEMq9s0ZGue';
   showUserBoard = true;
   groupeServices: GroupeDTO[] = [];
   schooseGroup = false;
@@ -89,7 +89,7 @@ export class LoginComponent implements OnInit {
     if (response.length === 0) {
       this.captchaError = true;
       return;
-    }
+    } 
 
     this.authService.login(username, password).subscribe(
       (data: any) => {
@@ -99,7 +99,7 @@ export class LoginComponent implements OnInit {
         this.isLoggedIn = true;
 
         //recuperation response
-        this.recaptchaResponse = response;
+       this.recaptchaResponse = response;
         
         console.log('responce of the login route =>', JSON.stringify(data));
         this.groupId = data.groupeId;

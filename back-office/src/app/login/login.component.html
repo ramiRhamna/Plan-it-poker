@@ -9,7 +9,7 @@
     <br><br>
     <div class="col-md-12" >
       <div class="card card-container">
-        <img id="profile-img"src="https://www.igesa.it/assets/common/images/logo/1529316041.png" align="center"/>
+        <img id="profile-img"  src="../../assets/images/ramiLog.jpg" alt="Logo" style="width: 73%; height: 180px;"/>
         <br><br>
         <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
           <div class="form-group">
@@ -50,8 +50,8 @@
               <small class="form-text text-right"><a style="text-decoration: none;" routerLink="/resetpassword"
                   class="text-muted">forgot password? </a></small>
             </div>
-            <div class="g-recaptcha" data-sitekey="6Ley04sfAAAAAEISEbw0tEt73BI_3S16cBUn4gwt"></div>
-            <div *ngIf="captchaError" class="error">Recaptcha not verified.</div>
+           <div class="g-recaptcha" data-sitekey="6LdV8oMpAAAAAKQRcL0xIVsprxwZE0_saU30I6jb"></div>
+            <div *ngIf="captchaError" class="error">Recaptcha not verified.</div> 
           </div><br>
           <div class="form-group">
             <button class="btn btn-primary btn-block">Login</button>
